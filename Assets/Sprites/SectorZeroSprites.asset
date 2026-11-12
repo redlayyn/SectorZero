@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec04011d2bc92e0408eca24ec6a63b7c, type: 3}
+  m_Name: SectorZeroSprites
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::SectorZeroSprites
+  ship: {fileID: 21300000, guid: 7601cccc36182cc45b310ee31b7567cb, type: 3}
+  laser: {fileID: 21300000, guid: ff189a5dad9954c45bb9ccbdf7466695, type: 3}
+  asteroid: {fileID: 21300000, guid: e150afa32b0b90242aa2671130f03430, type: 3}
+  boss: {fileID: 21300000, guid: a1d2f16b93131bc46972925730ea5f1e, type: 3}
+  drone: {fileID: 21300000, guid: faa888868f5507c4da134c002b997237, type: 3}
+  shipHeight: 1
+  laserHeight: 0.5
+  asteroidHeight: 1
+  bossHeight: 2
+  droneHeight: 0.4
+  background: {fileID: 21300000, guid: e766d2311a0e4f04e849488e50956c76, type: 3}
+  button: {fileID: 0}
+  panel: {fileID: 0}
+  buttonTextColor: {r: 1, g: 1, b: 1, a: 1}

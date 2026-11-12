@@ -53,7 +53,7 @@ public class SettingsPanel : MonoBehaviour
     void ApplyMusic(float value)
     {
         // Ползунок 0..1 переводим в децибелы (-80..0)
-        mixer.SetFloat(MusicParam, Mathf.Log10(value) * 20f);
+        if (mixer != null) mixer.SetFloat(MusicParam, Mathf.Log10(value) * 20f);
         PlayerPrefs.SetFloat(MusicParam, value);
     }
 
